@@ -4,3 +4,4 @@
 - limit total amount of used RAM in WSL2
 - setup VsXsrv (.bashrc)
 - setup remote WSL interpreter for PyCharm and VSCode
+- keyTweak to remap esc key to tab
