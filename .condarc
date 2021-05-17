@@ -1,0 +1,4 @@
+ssl_verify: false
+channels:
+  - conda-forge
+  - defaults
