@@ -1,0 +1,10 @@
+[Unit]
+Description=Restart fan monitor after resume to keep laptop from melting.
+After=suspend.target hibernate.target hybrid-sleep.target
+
+[Service]
+Type=simple
+ExecStart=/bin/systemctl restart i8kmon.service
+
+[Install]
+WantedBy=suspend.target
