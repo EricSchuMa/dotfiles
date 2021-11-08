@@ -1,5 +1,5 @@
 [core]
-	excludesfile = /home/max/.gitignore
+	excludesfile = ~/.gitignore
 [user]
 	email = max.schumacher12@googlemail.com
 	name = Max Schumacher
